@@ -1,0 +1,33 @@
+.overall-box{
+    border-style: solid;
+    border-color: green;
+    border-radius: 0.3rem;
+    background-color: white;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    height: 50%;
+    text-align: center;
+}
+.grid-item{
+    padding: 10%;
+}
+
+
+
+@media screen and (min-width: 480px) {
+    .overall-box {
+    border-style: solid;
+    border-color: green;
+    border-radius: 0.3rem;
+    background-color: white;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    }
+    .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    }
+}
+

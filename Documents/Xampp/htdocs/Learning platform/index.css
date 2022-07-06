@@ -1,0 +1,121 @@
+*{
+    font-size: 100%;
+}
+body{
+    background-image: url("background.jpg");
+    background-color: mistyrose;
+}
+
+.category{
+    /* text-align: center; */
+    background-color: white; 
+    /* width: 95%; */
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+}
+.categoriesList ul{
+    margin-left: -5%;
+}
+.categoriesList ul a{
+    text-decoration: none;
+    color: black;
+    margin-inline: 0.0000005%;
+    margin-left: 7%;
+    font-size: 140%;
+}
+.categoriesList :hover{
+    color: green;
+}
+.description{
+    margin-top: 0.5%; 
+    border-radius: 0.5%;
+    border-style: solid;
+    border-color: green;
+}
+.desc{
+    margin-inline: 3%;
+}
+.selectedCategory{
+    display: flex;
+}
+.selectedCategory img{
+    margin-inline: 1rem;
+    border-radius: 3%;
+    border-style: solid;
+    height: 14rem;
+    width: 90%;
+}
+.more{
+    margin-top: 9%;
+    padding-right: 3%;
+    /* margin-left: -2%;  */
+}
+.selectedCategory p{
+    width: 90%;
+    margin-inline: 1rem;
+}
+.selectedCategory a{
+    background-color: green;
+    border-radius: 0.2%;
+    text-align: center;
+    text-decoration: none;
+} 
+.desc2{
+    margin-top: 1.5%;
+    border-radius: 0.5%;
+    border-style: solid;
+    border-color: green;
+    margin-top: 2%;
+    background-color: white; 
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.desc2 p{
+    margin-inline: 0.5%;
+    
+}
+.peopleAreViewing{
+    display: flex;
+    margin-bottom: 0.1%;
+}
+.peopleAreViewing p{
+    margin-inline: 0.2rem;
+    width: 90%;
+}
+.peopleAreViewing img{
+    height: 14rem;
+    width: 90%;
+    margin-inline: 0.2rem;
+    border-radius: 3%;
+    border-style: solid;
+    border-color: rgb(17, 17, 17);
+    margin-top: 0.2%; 
+}
+.checked{
+    color: orange;
+}
+
+
+
+
+/* Media queries */
+@media only screen and (max-width: 1000px) {
+    .peopleAreViewing {
+      display: block;
+      text-align: center;
+
+    }
+    .selectedCategory{
+        display: block;
+        width: auto;
+        text-align: center;
+      }
+      .peopleAreViewing p{
+        width: auto;
+    }
+    .selectedCategory p{
+        width: auto; 
+    }
+
+  }
