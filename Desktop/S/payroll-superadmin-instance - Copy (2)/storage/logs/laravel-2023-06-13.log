@@ -1,0 +1,4 @@
+[2023-06-13 13:31:51] live.EMERGENCY: File:/home/wdatzrkn/public_html/tiba/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.phpLine:454Message:No query results for model [App\Variation].  
+[2023-06-13 13:31:52] live.EMERGENCY: File:/home/wdatzrkn/public_html/tiba/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.phpLine:454Message:No query results for model [App\Variation].  
+[2023-06-13 20:34:06] live.EMERGENCY: File:/home/wdatzrkn/public_html/tiba/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.phpLine:454Message:No query results for model [App\Variation].  
+[2023-06-13 22:22:49] live.EMERGENCY: File:/home/wdatzrkn/public_html/tiba/vendor/spatie/laravel-permission/src/Exceptions/PermissionAlreadyExists.phpLine:11Message:A `purchase_order.view_own` permission already exists for guard `web`.  
